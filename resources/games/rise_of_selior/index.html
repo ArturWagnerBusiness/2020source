@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Rise of Selior</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./style/launcher.css">
+    <link rel="stylesheet" href="./style/game.css">
+    <link rel="stylesheet" href="./style/manager.css">
+    <!-- Font -->
+    <script src="./lib/font-awesome-kit.js" crossorigin="anonymous"></script>
+    
+    <!-- Libraries -->
+    <script src="./lib/jquery-3.5.0.min.js"></script>
+    <script src="./lib/phaser.js"></script>
+  </head>
+  <body>
+    <div id="menu-bar">
+      <div class="left" role="menu">
+        <button class="menubar-btn" id="menu-btn"><i class="fas fa-bars"></i></button>
+        <h5 id="title">Rise of Selior</h5>
+      </div>
+      <div class="right">
+        <button class="menubar-btn" id="minimize-btn"><i class="fas fa-window-minimize"></i></button>
+        <button class="menubar-btn" id="max-unmax-btn"><i class="far fa-square"></i></button>
+        <button class="menubar-btn" id="close-btn"><i class="fas fa-times"></i></button>
+      </div>
+    </div>
+    <!-- Load Window Header-->
+    <script src="./launcher/renderer.js"></script>
+
+    <div id="content">
+      <!-- Canvas -->
+      <div id="GameSpace" style="display: block;"></div>
+      
+
+    </div>
+
+    <!-- Game Objects -->
+
+    <script src="./assets/entities/player.js"></script>
+    <script src="./assets/entities/goblin.js"></script>
+    <script src="./assets/entities/boss.js"></script>
+    <script src="./assets/entities/arrow.js"></script>
+
+    <!-- Game Scenes -->
+    <script src="./assets/worlds/village.js"></script>
+
+    <!-- Main objects -->
+    <script src="./logic/object_manager.js"></script>
+    <script src="./logic/dropdowns.js"></script>
+    <script src="./logic/util.js"></script>
+    
+    <!-- Game init -->
+    <script src="./assets/worlds/init.js"></script>
+  </body>
+</html>

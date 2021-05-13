@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script async src="https://platform.twitter.com/widgets.js" defer charset="utf-8"></script>
+    <!-- Meta data -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Artur Wagner">
+    <meta name="description" content="Home of several applications, games and music.">
+    <meta name="keywords" content="Games, Music, Artur, Wagner, Applications">
+
+    <link rel="stylesheet" href="/2020source/resources/css/data_theme.css">
+    <link rel="stylesheet" href="/2020source/resources/css/essential.css">
+    <link rel="stylesheet" href="/2020source/resources/css/homepage.css">
+
+    <script src="/2020source/resources/js/data_theme.js" defer></script>
+    <title>Darkness within us</title>
+
+    <!-- Unity data -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+        var unityInstance = UnityLoader.instantiate("unityContainer", "Build/Darkness within us 0.3 WebGL.json", {onProgress: UnityProgress});
+    </script>
+    <style>
+        div#content {
+            text-align: center;
+            flex-direction: column;
+            height: auto;
+        }
+    </style>
+    <!-- End of data-->
+
+</head>
+<body>
+    <nav>
+        <div id="hamburger">burger ICON</div>
+        <div id="nav-items">
+            <a class="home selected" href="/index.html"><p>Home</p></a>
+            <a class="games" href="/2020source/resources/webpages/games.html"><p>Games</p></a>
+            <a class="music" href="/2020source/resources/webpages/music.html"><p>Music</p></a>
+            <a class="applications" href="/2020source/resources/webpages/applications.html"><p>Applications</p></a>
+        </div>
+        <div id="colormode">
+            <label class="theme-switch" for="checkbox">
+                <input type="checkbox" id="checkbox" />
+                <div class="slider round"></div>
+            </label>
+        </div>
+    </nav>
+    <div id="content">
+        <h1>Website is in developement</h1>
+        <div class="webgl-content">
+            <div id="unityContainer" style="width: 100%; height: 100%"></div>
+            <div class="footer">
+            <div class="webgl-logo"></div>
+            <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+            <div class="title">Darkness within us</div>
+            </div>
+        </div>
+    </div>
+    <footer>Developed by Artur Wagner</footer>
+</body>
+</html>

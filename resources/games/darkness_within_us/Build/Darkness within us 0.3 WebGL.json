@@ -1,0 +1,16 @@
+{
+"companyName": "Artur Wagner Business",
+"productName": "Darknes within us",
+"productVersion": "0.3",
+"dataUrl": "Darkness within us 0.3 WebGL.data.unityweb",
+"wasmCodeUrl": "Darkness within us 0.3 WebGL.wasm.code.unityweb",
+"wasmFrameworkUrl": "Darkness within us 0.3 WebGL.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.3.12f1"
+}
